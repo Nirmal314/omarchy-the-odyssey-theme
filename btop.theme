@@ -1,0 +1,93 @@
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#000002"
+
+# Main text color
+theme[main_fg]="#c4fdff"
+
+# Title color for boxes
+theme[title]="#c4fdff"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#5f80a8"
+
+# Background color of selected item in processes box. #1a1a1b maps to
+# the foreground role in aether (terminal selection wants inverted contrast),
+# which renders as plain white on dark themes - indistinguishable from the
+# main text. #1a1a1b gives a subtle highlight that still reads on a
+# dark background and is invisible-but-harmless on light backgrounds.
+theme[selected_bg]="#1a1a1b"
+
+# Foreground color of selected item in processes box. Use #c4fdff so
+# the row text stays readable on the lighter_bg highlight; the previous
+# #5f80a8 produced low-contrast blue-on-white in dark themes.
+theme[selected_fg]="#c4fdff"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#5d6066"
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling.
+# #cdfdff caps at #ffffff when the foreground is already pure white, so we
+# just bind it to #c4fdff directly.
+theme[graph_text]="#c4fdff"
+
+# Background color of the percentage meters. Same fix as selected_bg - the
+# previous #1a1a1b collapsed to the main fg.
+theme[meter_bg]="#1a1a1b"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text.
+# Use #93e2ff for a distinct accent instead of #cdfdff which capped to white.
+theme[proc_misc]="#93e2ff"
+
+# CPU, Memory, Network, Proc box outline colors
+theme[cpu_box]="#92a7e0"
+theme[mem_box]="#84cce4"
+theme[net_box]="#8e8eba"
+theme[proc_box]="#5f80a8"
+
+# Box divider line and small boxes line color
+theme[div_line]="#5d6066"
+
+# Temperature graph color (Green -> Yellow -> Red)
+theme[temp_start]="#84cce4"
+theme[temp_mid]="#a1ffff"
+theme[temp_end]="#8e8eba"
+
+# CPU graph colors (Teal -> Blue -> Purple)
+theme[cpu_start]="#93e2ff"
+theme[cpu_mid]="#5f80a8"
+theme[cpu_end]="#92a7e0"
+
+# Mem/Disk free meter
+theme[free_start]="#92a7e0"
+theme[free_mid]="#5f80a8"
+theme[free_end]="#93e2ff"
+
+# Mem/Disk cached meter
+theme[cached_start]="#5f80a8"
+theme[cached_mid]="#93e2ff"
+theme[cached_end]="#92a7e0"
+
+# Mem/Disk available meter
+theme[available_start]="#a1ffff"
+theme[available_mid]="#8e8eba"
+theme[available_end]="#8e8eba"
+
+# Mem/Disk used meter (Green -> Teal -> Blue)
+theme[used_start]="#84cce4"
+theme[used_mid]="#93e2ff"
+theme[used_end]="#5f80a8"
+
+# Download graph colors
+theme[download_start]="#a1ffff"
+theme[download_mid]="#8e8eba"
+theme[download_end]="#8e8eba"
+
+# Upload graph colors (Green -> Teal -> Blue)
+theme[upload_start]="#84cce4"
+theme[upload_mid]="#93e2ff"
+theme[upload_end]="#5f80a8"
+
+# Process box color gradient for threads, mem and cpu usage
+theme[process_start]="#93e2ff"
+theme[process_mid]="#5f80a8"
+theme[process_end]="#92a7e0"

@@ -1,0 +1,32 @@
+# The Odyssey Theme
+mode = "dark"
+
+accent = "#7ba4d4"
+selection = "#2a3a4a"
+muted = "#6b7a8a"
+
+background = "#0d1117"
+dark_background = "#080c10"
+darker_background = "#060910"
+lighter_background = "#161b22"
+
+foreground = "#e6f3ff"
+dark_foreground = "#8b9eb5"
+light_foreground = "#f0f8ff"
+bright_foreground = "#ffffff"
+
+red = "#e06c75"
+yellow = "#e5c07b"
+orange = "#d19a66"
+green = "#98c379"
+cyan = "#56b6c2"
+blue = "#61afef"
+magenta = "#c678dd"
+brown = "#a0716a"
+
+bright_red = "#ff8a98"
+bright_yellow = "#ffd966"
+bright_green = "#b5e890"
+bright_cyan = "#7fdeff"
+bright_blue = "#82c8ff"
+bright_magenta = "#e0a8ff"
