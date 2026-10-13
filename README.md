@@ -15,7 +15,7 @@ A theme drawn from Homer's epic *The Odyssey* and its [film adaptation](https://
 ## Wallpapers
 
 <p align="center">
-  <img src="backgrounds/o-1.jpg" alt="Theme Background 1">
+  <img src="backgrounds/o-1.webp" alt="Theme Background 1">
 </p>
 <p align="center">
   <img src="backgrounds/o-2.jpg" alt="Theme Background 2">
