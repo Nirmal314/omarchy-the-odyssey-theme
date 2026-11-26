@@ -37,4 +37,3 @@ omarchy-theme-install https://github.com/Nirmal314/omarchy-the-odyssey-theme
 This theme includes configurations for:
 
 - **Terminal Emulators**: Alacritty, Foot, Ghostty, Kitty
-- **Editor**: Neovim, Zed
