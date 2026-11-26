@@ -38,4 +38,3 @@ This theme includes configurations for:
 
 - **Terminal Emulators**: Alacritty, Foot, Ghostty, Kitty
 - **Editor**: Neovim, Zed
-- **Other**: Zellij
