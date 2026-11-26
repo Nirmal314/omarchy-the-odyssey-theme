@@ -40,7 +40,6 @@ This theme includes configurations for:
 - **Window Manager**: Hyprland, Hyprlock
 - **Bar**: Waybar
 - **Application Launcher**: Wofi, Walker
-- **Notification Daemon**: Mako
 - **Editor**: Neovim, Zed
 - **System Monitor**: btop
 - **Browser**: Chromium
