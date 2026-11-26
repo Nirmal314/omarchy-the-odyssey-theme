@@ -41,6 +41,4 @@ This theme includes configurations for:
 - **Bar**: Waybar
 - **Application Launcher**: Wofi, Walker
 - **Editor**: Neovim, Zed
-- **System Monitor**: btop
-- **Browser**: Chromium
 - **Other**: Zellij, Vencord, SwayOSD, Warp
