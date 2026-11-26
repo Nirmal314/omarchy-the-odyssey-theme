@@ -37,7 +37,5 @@ omarchy-theme-install https://github.com/Nirmal314/omarchy-the-odyssey-theme
 This theme includes configurations for:
 
 - **Terminal Emulators**: Alacritty, Foot, Ghostty, Kitty
-- **Bar**: Waybar
-- **Application Launcher**: Wofi, Walker
 - **Editor**: Neovim, Zed
-- **Other**: Zellij, Vencord, SwayOSD, Warp
+- **Other**: Zellij, Warp
